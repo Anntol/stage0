@@ -1,4 +1,4 @@
--  [stage0](stage0/description.md)
+-  [stage0](description.md)
   - [Основные вопросы](stage0/materials/index.md)
     - [Настройка окружения](stage0/materials/tools.md)
     - [Работа с Git](stage0/materials/git.md)
