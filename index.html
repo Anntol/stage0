@@ -7,6 +7,7 @@
   <meta name="description" content="Официальная документация">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">  
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
 </head>
 <body>
   <div id="app"></div>
@@ -20,6 +21,7 @@
         '/.*/_sidebar.md': '/_sidebar.md',
       },
       subMaxLevel: 1,
+      sidebarDisplayLevel: 3,
       relativePath: false,
       auto2top: true,
       name: '',
@@ -32,8 +34,7 @@
         hideOtherSidebarContent: false, // whether or not to hide other sidebar content
         // To avoid search index collision
         // between multiple websites under the same domain
-        namespace: 'website-1',
-        sidebarDisplayLevel: 1        
+        namespace: 'website-1'               
       }
     }
   </script>
